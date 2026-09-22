@@ -1,0 +1,24 @@
+# BuildBot - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web Framework & UI
+streamlit>=1.28.0
+
+# HTTP Client
+requests>=2.31.0
+httpx>=0.25.0
+
+# OpenAI-compatible LLM client
+openai>=1.0.0
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Email
+aiosmtplib>=3.0.0
+
+# Utilities
+tenacity>=8.2.0
+python-dateutil>=2.8.0
